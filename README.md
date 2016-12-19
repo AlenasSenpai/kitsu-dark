@@ -1,32 +1,55 @@
 ## kitsu.io dark theme
 
-A nice and clean darker theme for kitsu.io
+A nice and clean dark theme for http://kitsu.io
 
 ## Installation
 
-This website restyling is a userscript, so you'll need to make sure you have a scriptmanager installed for your browser of choice, if you don't you can find it here:
+### Step 1. - Get a scriptmanager extension.
 
-Chrome: https://tampermonkey.net/ 
+This website restyling is a userscript, so you'll need to make sure you have a scriptmanager installed for your browser of choice, if you don't have one then you can get one below:
 
-Firefox: https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
+[Chrome](https://tampermonkey.net)
 
-### Theme time
+[Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey)
 
-Now to the theme, you should hopefully still be on github for this, so at this stage, click the filename: https://i.gyazo.com/da0e16e0cfe89c0f4f6bf5579bdff108.png and you'll see the full code for
- the theme, you should also see a row of buttons that look like this: https://i.gyazo.com/7d1a264b045e8aa3fe62c97b98dae2ba.png if you click the raw button with tampermonkey installed, tampermonkey
- should take over and ask you to install, click yes, it should already be enabled and will just need a page refresh.
+[Opera](https://addons.opera.com/en/extensions/details/violent-monkey)
+
+### Step 2. - Install the theme.
+
+Now to the theme, click [here](https://github.com/misarasglow/kitsu-dark/raw/master/kitsu.io-dark-theme.user.js), the scriptmanager
+should take over and ask you to install. Just click "Install" or "Yes".
+
+After you installed it, you should be able to simply refresh Kitsu to see the changes.
+
+## Troubleshooting
  
- There is a possibilty that it doesn't open up the context menu for tampermonkey by clicking this 
- icon: https://i.gyazo.com/5194c1610e529ecee185cc776ff0f596.png to the right of the address bar, this will bring out and menu that should be similar to: https://i.gyazo.com/9be8510eaa274285b49486f89a084310.png 
- click dashboard and it will give you a list of any userscripts you have install and in there should be: https://i.gyazo.com/439fafb95b186f7f7cbdb0afd73dfc83.png , make sure it's enabled and you're done, 
- just refresh the page on kitsu.io
+If it doesn't work, you need to ensure that it was installed properly and that the script is enabled.
+
+### Troublshooting on Chrome
+If Tampermonkey doesn't look like this:
+
+![alt text](https://i.gyazo.com/5194c1610e529ecee185cc776ff0f596.png "")
+
+then make sure it's enabled by clicking the logo and clicking the toggle:
+
+![alt text](https://i.gyazo.com/9be8510eaa274285b49486f89a084310.png "")
+
+If that doesn't work, then it is likely you didn't install the script. [Try Again.](https://github.com/misarasglow/kitsu-dark/raw/master/kitsu.io-dark-theme.user.js)
+
+### Troubleshooting on Firefox
+Make sure your Greasemonkey is enabled and the script is enabled like this:
+
+![alt text](https://i.imgur.com/BOwjfF1.png "")
+
+If you don't see the kitsu.io dark theme script there then you might not have installed it correctly. [Try Again.](https://github.com/misarasglow/kitsu-dark/raw/master/kitsu.io-dark-theme.user.js)
+
 
 ## Contributors
 
-I'm not against suggestions or tweaks, hell even a request, to do so find me here: https://kitsu.io/users/Alenas_Senpai
+Send me feedback, suggestions, and bug reports here: https://kitsu.io/users/Alenas_Senpai
 
-Any tweaks or fixes offered will see their name here.
+If you contribute, then your name will go here.
 
 ## License
 
-Modify all you like, but please don't repost anywhere else, because chances are they wont get updated there.
+Modify all you like, but please don't distribute it anywhere, because it will likely not recieve crucial updates and break.
