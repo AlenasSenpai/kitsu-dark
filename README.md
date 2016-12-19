@@ -4,7 +4,9 @@ A nice and clean darker theme for kitsu.io
 
 ## Installation
 
-This website restyling is a userscript for tampermonkey, so you need to make sure you have it installed for your browser of choice, if you don't you can find it here: https://tampermonkey.net/
+This website restyling is a userscript, so you'll need to make sure you have a scriptmanager installed for your browser of choice, if you don't you can find it here: 
+Chrome: https://tampermonkey.net/
+Firefox: https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/
 
 ### Theme time
 
