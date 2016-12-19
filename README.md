@@ -2,6 +2,8 @@
 
 A nice and clean dark theme for http://kitsu.io
 
+![alt text](https://i.gyazo.com/71d79951958082032f3d4f174568aab5.png "")
+
 ## Installation
 
 ### Step 1. - Get a scriptmanager extension.
