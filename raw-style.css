@@ -442,3 +442,41 @@ ul li a:hover {
     background: #f75239;
     color: #e5e5e5;
 }
+
+/* feed comments and pinned post changes to implement */
+
+.stream-item.pinned-post {
+    border: 1px solid #f75239;
+}
+
+.stream-item-comments {
+    background: #3d3d3d;
+    border-top: 1px solid #f75239;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.stream-item-comments li {
+    border-bottom: 1px solid #f75239;
+}
+
+.media-body .sm-comment-count {
+    color: #f75239;
+}
+
+.media-body .comment-reply {
+    color: #e5e5e5;
+    font-size: 1.0em;
+    background: #f75239;
+    border-radius: 6px 6px 0px 0px;
+    position: relative;
+    padding: 3px 5px 3px 8px;
+    bottom: -10px;
+}
+
+.media-body .comment-reply:hover {
+    text-decoration: underline;
+}
+
+.media-body .comment-time {
+    color: #e5e5e5;
+}
