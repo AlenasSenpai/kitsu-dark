@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name          kitsu.io dark theme
-// @namespace     http://userstyles.org
+// @namespace     https://github.com/misarasglow/kitsu-dark
 // @description	  Dark Theme For kitsu.io
 // @author        AlenasSenpai
 // @homepage      https://github.com/misarasglow/kitsu-dark
+// @updateURL     https://github.com/misarasglow/kitsu-dark/raw/master/kitsu.io-dark-theme.user.js
+// @downloadURL   https://github.com/misarasglow/kitsu-dark/raw/master/kitsu.io-dark-theme.user.js
 // @include       http://kitsu.io/*
 // @include       https://kitsu.io/*
 // @include       http://*.kitsu.io/*
