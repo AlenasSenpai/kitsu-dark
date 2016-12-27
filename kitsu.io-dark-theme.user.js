@@ -3,20 +3,20 @@
 // @namespace     http://userstyles.org
 // @description	  Dark Theme For kitsu.io
 // @author        AlenasSenpai
-// @homepage      https://userstyles.org/styles/136200
+// @homepage      https://github.com/misarasglow/kitsu-dark
 // @include       http://kitsu.io/*
 // @include       https://kitsu.io/*
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at        document-start
-// @version       0.20161216172302
+// @version       1.4
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
 	" * Version: v1.4",
-	" * Latest update: 18/12/2016",
+	" * Latest update: 27/12/2016",
 	" * Changelog: additional styling for some things and site include changed as kitsu is no longer closed beta",
 	"",
 	" */",
