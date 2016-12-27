@@ -412,7 +412,7 @@ ul li a:hover {
     display: none;
 }
 
-/* dec 27 update > content load error and feed changes*/
+/* dec 27 update part1 */
 .stream-item {
     background: #3d3d3d;
     border: none;
@@ -443,7 +443,7 @@ ul li a:hover {
     color: #e5e5e5;
 }
 
-/* feed comments and pinned post changes to implement */
+/* 27 Dec 2016 update part2  */
 
 .stream-item.pinned-post {
     border: 1px solid #f75239;
