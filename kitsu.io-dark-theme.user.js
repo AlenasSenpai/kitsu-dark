@@ -11,15 +11,15 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at        document-start
-// @version       1.4.1
+// @version       1.4.2
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.4.1",
-	" * Latest update: 27/12/2016",
-	" * Changelog: additional styling for some things and site include changed as kitsu is no longer closed beta",
+	" * Version: v1.4.2",
+	" * Latest update: 31/12/2016",
+	" * Changelog: comment reply changes and tweaks, also like, reply button, time posted and more button are more spaced out",
 	"",
 	" */",
 	"",
