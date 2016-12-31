@@ -480,3 +480,24 @@ ul li a:hover {
 .media-body .comment-time {
     color: #e5e5e5;
 }
+
+.reply-list {
+    border-radius: 6px;
+    background: #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.more-wrapper {
+    top: 6px;
+}
+
+.sm-comment-count, .stream-item-activity .like-stream-item {
+    top: 6px;
+    margin-right: 10px;
+}
+
+.media-body .comment-time {
+    position: relative;
+    top: 6px;
+    margin-left: 10px;
+}
