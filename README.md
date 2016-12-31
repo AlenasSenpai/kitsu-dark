@@ -51,6 +51,7 @@ If you don't see the kitsu.io dark theme script there then you might not have in
 Send me feedback, suggestions, and bug reports here: https://kitsu.io/users/Alenas_Senpai
 
 If you contribute, then your name will go here:
+
 [Uri.](https://kitsu.io/users/Uri) - Awesomely readable and clean readme :D
 
 ## License
