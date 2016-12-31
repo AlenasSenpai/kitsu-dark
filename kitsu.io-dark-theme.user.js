@@ -525,11 +525,15 @@
 "    color: #e5e5e5;",
 "    padding: 20px;",
 "}",
-".combo-gate a::after, .nsfw-gate a::after, .spoiler-gate a::after {",
+".combo-gate a::after, .nsfw-gate a::after, .spoiler-gate a::after, .dropdown.open .dropdown-menu a {",
 "    color: #e5e5e5;",
 "}",
 ".combo-gate a:hover::after, .nsfw-gate a:hover::after, .spoiler-gate a:hover::after {",
 "    color: inherit;",
+"}", 
+".navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .dropdown button:hover, ",
+".dropdown.open button, .dropdown.open .dropdown-menu a:hover {",
+"    color:#f75239;",
 "}"
 	
 ].join("\n");
