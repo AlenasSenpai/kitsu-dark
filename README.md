@@ -52,7 +52,7 @@ Send me feedback, suggestions, and bug reports here: https://kitsu.io/users/Alen
 
 If you contribute, then your name will go here:
 
-[Uri.](https://kitsu.io/users/Uri) - Awesomely readable and clean readme :D
+[Uri](https://kitsu.io/users/Uri) - Awesomely readable and clean readme :D
 
 ## License
 
