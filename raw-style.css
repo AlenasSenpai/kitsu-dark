@@ -501,3 +501,94 @@ ul li a:hover {
     top: 6px;
     margin-left: 10px;
 }
+
+/* Jan 1st pending update */
+.aggregate-date {
+    background: #3d3d3d;
+    border-radius: 6px;
+    color: #e5e5e5;
+}
+
+.aggregate-wrapper .hr {
+    background: #f75239;
+}
+
+.aggregate-wrapper .button {
+    background: #3d3d3d;
+    border: 1px solid #f75239;
+    color: #e5e5e5;
+}
+
+.stream-item--title-block .author-name {
+    color: #f75239;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.agg-action a {
+    color: #f75239;
+}
+
+.aggregate-date .date-heading {
+    font-weight: 300;
+    border-bottom: 1px solid #e5e5e5;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.stream-item {
+    border-bottom: 1px solid #f75239;
+}
+
+.media-body .comment-actions {
+    background: #2d2d2d;
+    border-radius: 6px 6px 0px 0px;
+    border-bottom: 1px solid #f75239;
+}
+
+.reply-list {
+    border-radius: 6px 6px 6px 6px;
+    margin-top: 31px;
+}
+
+
+
+.media-body textarea:before {
+    content: "Reply Below:";
+    color: #e5e5e5;
+}
+
+.media-body textarea[style] {
+    margin-top: 30px;
+}
+
+.reply-list li:last-child {
+    margin-bottom: 0px;
+    float: left;
+    background: #2d2d2d;
+    }
+
+.form-control {
+    border-top: 1px solid #f75239;
+    border-bottom: 1px solid #f75239;
+    border-left: transparent;
+    border-right: transparent;
+    background: #2d2d2d;
+}
+
+.stream-item-comments li {
+    padding-bottom: 10px;
+}
+
+.stream-item-comments .stream-item-activity {
+    margin-bottom: -10px;
+}
+
+.add-comment-wrapper:before {
+    content: "Reply Below:";
+    color: #e5e5e5;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    float: left;
+}
