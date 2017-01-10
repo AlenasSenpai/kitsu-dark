@@ -11,15 +11,15 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at        document-start
-// @version       1.5.2
+// @version       1.5.3
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.5.2",
+	" * Version: v1.5.3",
 	" * Latest update: 10/01/2017",
-	" * Changelog: updated most of the main feed areas for replies and such, so everything is nice and clean *hotfix 1.5.2*",
+	" * Changelog: updated most of the main feed areas for replies and such, so everything is nice and clean *hotfix 1.5.3*",
 	"",
 	" */",
 	"",
@@ -445,7 +445,7 @@
 	"}",
 	"",
 	".stream-item-comments .reply-comment {",
-	"    border-color: transparent;",
+	"    border-color: #f75239;",
 	"    margin-bottom: 5px;",
 	"}",
 	"",
