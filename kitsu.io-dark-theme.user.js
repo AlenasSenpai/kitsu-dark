@@ -11,15 +11,15 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at        document-start
-// @version       1.5.6
+// @version       1.5.7
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.5.6",
+	" * Version: v1.5.7",
 	" * Latest update: 10/01/2017",
-	" * Changelog: updated most of the main feed areas for replies and such, so everything is nice and clean *hotfix 1.5.6*",
+	" * Changelog: updated most of the main feed areas for replies and such, so everything is nice and clean *hotfix 1.5.7*",
 	"",
 	" */",
 	"",
