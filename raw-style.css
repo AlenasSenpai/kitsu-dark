@@ -487,10 +487,6 @@ ul li a:hover {
     border-bottom: 1px solid #2d2d2d;
 }
 
-.more-wrapper {
-    top: 6px;
-}
-
 .sm-comment-count, .stream-item-activity .like-stream-item {
     top: 6px;
     margin-right: 10px;
@@ -502,9 +498,19 @@ ul li a:hover {
     margin-left: 10px;
 }
 
-/* Jan 1st pending update */
+/* Jan 10th update */
+
+.agg-avatar img {
+    background: transparent;
+}
+
+.stream-item--media img {
+    background: transparent;
+    border-radius: 6px;
+}
+
 .aggregate-date {
-    background: #3d3d3d;
+    background: #f75239;
     border-radius: 6px;
     color: #e5e5e5;
 }
@@ -515,6 +521,11 @@ ul li a:hover {
 
 .aggregate-wrapper .button {
     background: #3d3d3d;
+    border: 1px solid #f75239;
+    color: #e5e5e5;
+}
+.aggregate-wrapper .button:hover {
+    background: #f75239;
     border: 1px solid #f75239;
     color: #e5e5e5;
 }
@@ -552,8 +563,6 @@ ul li a:hover {
     margin-top: 31px;
 }
 
-
-
 .media-body textarea:before {
     content: "Reply Below:";
     color: #e5e5e5;
@@ -563,11 +572,17 @@ ul li a:hover {
     margin-top: 30px;
 }
 
+.reply-list {
+    border-bottom: 0px solid #000000;
+}
+
 .reply-list li:last-child {
     margin-bottom: 0px;
     float: left;
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
     background: #2d2d2d;
-    }
+}
 
 .form-control {
     border-top: 1px solid #f75239;
@@ -591,4 +606,12 @@ ul li a:hover {
     margin-bottom: 10px;
     margin-top: -10px;
     float: left;
+}
+
+.d-inline-block .more-wrapper {
+    top: 6px;
+} 
+
+.sm-comment-count, .stream-item-activity .like-stream-item, .more-wrapper {
+    top: 0px;
 }
