@@ -652,6 +652,9 @@
 	"",
 	".sm-comment-count, .stream-item-activity .like-stream-item, .more-wrapper {",
 	"    top: 0px;",
+	"}",
+	".user-cover .dark-cover-overlay {",
+	"    background: rgba(0,0,0,0.0);",
 	"}"
 
 ].join("\n");
