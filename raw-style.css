@@ -617,5 +617,8 @@ ul li a:hover {
 }
 
 .user-cover .dark-cover-overlay {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 100%;
     background: rgba(0,0,0,0.0);
-}
