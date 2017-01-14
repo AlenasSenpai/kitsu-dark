@@ -11,13 +11,13 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at        document-start
-// @version       1.6
+// @version       1.6.1
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.6",
+	" * Version: v1.6.1",
 	" * Latest update: 14/01/2017",
 	" * Changelog: altered the cover bg styling, to remove the semi transparent black layer over user covers",
 	"",
@@ -654,6 +654,10 @@
 	"    top: 0px;",
 	"}",
 	".user-cover .dark-cover-overlay {",
+	"    position: absolute;",
+	"    bottom: 0;",
+	"    top: 0;",
+	"    width: 100%;",
 	"    background: rgba(0,0,0,0.0);",
 	"}"
 
