@@ -11,13 +11,13 @@
 // @include       http://*.kitsu.io/users/werejo*
 // @include       https://*.kitsu.io/users/werejo*
 // @run-at        document-start
-// @version       1.0.2
+// @version       1.0.3
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Werejo anim bggg",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.0.2",
+	" * Version: v1.0.3",
 	" * Latest update: 15/01/2017",
 	" * Changelog: sigh",
 	"",
