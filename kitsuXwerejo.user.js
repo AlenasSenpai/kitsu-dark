@@ -11,30 +11,23 @@
 // @include       http://*.kitsu.io/users/werejo*
 // @include       https://*.kitsu.io/users/werejo*
 // @run-at        document-start
-// @version       1.0.1
+// @version       1.0.2
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Werejo anim bggg",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.6.1",
-	" * Latest update: 14/01/2017",
+	" * Version: v1.0.2",
+	" * Latest update: 15/01/2017",
 	" * Changelog: sigh",
 	"",
 	" */",
 	"",
-  ".user-cover .cover-photo {",
-  "    background-image: url("https://github.com/misarasglow/kitsu-dark/blob/master/yuki.gif");",
-  "    background-size: cover;",
-  "    background-repeat: no-repeat;",
-  "    background-position: center;",
-  "}"
-  "",
-  ".user-cover .dark-cover-overlay {",
-	"    position: absolute;",
-	"    bottom: 0;",
-	"    top: 0;",
-	"    width: 100%;",
+  	".user-cover .dark-cover-overlay {",
+  	"    background-image: url(\"https://github.com/misarasglow/kitsu-dark/blob/master/yuki.gif\");",
+  	"    background-size: cover;",
+	"    background-repeat: no-repeat;",
+	"    background-position: center;",
 	"    background: rgba(0,0,0,0.0);",
 	"}"
 
