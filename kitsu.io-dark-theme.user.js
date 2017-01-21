@@ -10,16 +10,16 @@
 // @include       https://kitsu.io/*
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
-// @run-at        document-start
-// @version       1.6.1
+// @run-at	  document-body
+// @version       1.6.2
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.6.1",
+	" * Version: v1.6.2",
 	" * Latest update: 14/01/2017",
-	" * Changelog: altered the cover bg styling, to remove the semi transparent black layer over user covers",
+	" * Changelog: run at changed to body in the hope it loads after everything kitsu, so it sticks better and scrollbar widened",
 	"",
 	" */",
 	"",
@@ -413,7 +413,7 @@
 	"",
 	"::-webkit-scrollbar {",
 	"    height: 6px;",
-	"    width: 6px;",
+	"    width: 10px;",
 	"}",
 	"",
 	"::-webkit-scrollbar-button {",
@@ -426,12 +426,12 @@
 	"",
 	"::-webkit-scrollbar-thumb {",
 	"    background-color: #f75239;",
-	"    border-radius: 10px;",
+	"    border-radius: 20px;",
 	"}",
 	"",
 	"::-webkit-scrollbar-track {",
 	"    background-color: #111111;",
-	"    width: 5px;",
+	"    width: 10px;",
 	"}",
 	"",
 	"::-webkit-scrollbar-track-piece {",
