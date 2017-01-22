@@ -11,7 +11,7 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	  document-body
-// @version       1.3
+// @version       1.4
 // ==/UserScript==
 
 var logo = document.createElement("div");
