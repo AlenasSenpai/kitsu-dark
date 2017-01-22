@@ -11,14 +11,10 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	  document-body
-// @version       1.4
+// @version       1.5
 // ==/UserScript==
 
-var logo = document.createElement("div");
-logo.innerHTML = '<div id="btt">' +
-    '<a href=".ember-application">Back To Top</a>' +
-    '</div>';
-document.body.insertBefore(logo, document.body.firstChild);
+$("<div id='btt'><a href='#ember-basic-dropdown-wormhole'>Back To Top</a></div>").insertAfter(".navbar");
 
 (function() {var css = [
   	"#btt {",
