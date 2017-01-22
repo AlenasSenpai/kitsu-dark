@@ -4,14 +4,14 @@
 // @description	  ALt Dark Theme For kitsu.io that add a back to top button (theme in testing don't use)
 // @author        AlenasSenpai
 // @homepage      https://github.com/misarasglow/kitsu-dark
-// @updateURL     https://github.com/misarasglow/kitsu-dark/raw/master/kitsu.io-dark-theme.user.js
-// @downloadURL   https://github.com/misarasglow/kitsu-dark/raw/master/kitsu.io-dark-theme.user.js
+// @updateURL     https://github.com/misarasglow/kitsu-dark/raw/master/kitsu.io-dark-theme-alt.user.js
+// @downloadURL   https://github.com/misarasglow/kitsu-dark/raw/master/kitsu.io-dark-theme-alt.user.js
 // @include       http://kitsu.io/*
 // @include       https://kitsu.io/*
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	      document-body
-// @version       1.2
+// @version       1.2.1
 // ==/UserScript==
 
 var bbtButton = '<div id="btt"><a href=".ember-application">Back To Top</a></div>';
