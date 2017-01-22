@@ -11,7 +11,7 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	      document-body
-// @version       1.0
+// @version       1.1
 // ==/UserScript==
 
 var bbtButton = '<div id="btt"><a href=".ember-application">Back To Top</a></div>';
@@ -24,7 +24,7 @@ $('#btt').click(function() {
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.0",
+	" * Version: v1.1",
 	" * Latest update: 14/01/2017",
 	" * Changelog: run at changed to body in the hope it loads after everything kitsu, so it sticks better and scrollbar widened",
 	"",
