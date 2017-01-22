@@ -11,14 +11,12 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	      document-body
-// @version       1.2.1
+// @version       1.2.2
 // ==/UserScript==
 
-var bbtButton = '<div id="btt"><a href=".ember-application">Back To Top</a></div>';
-
-$('#btt').click(function() {
-    $('.feed-container').insertAfter(bbtButton);
-});
+$("body").append ( `
+<div id="btt"><a href=".ember-application">Back To Top</a></div>
+` );
 
 (function() {var css = [
   	"#btt {",
