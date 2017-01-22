@@ -10,13 +10,15 @@
 // @include       https://kitsu.io/*
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
-// @run-at	      document-body
+// @run-at	  document-body
 // @version       1.3
 // ==/UserScript==
 
-$("body").append ( `
-<div id="btt"><a href=".ember-application">Back To Top</a></div>
-` );
+var logo = document.createElement("div");
+logo.innerHTML = '<div id="btt">' +
+    '<a href=".ember-application">Back To Top</a>' +
+    '</div>';
+document.body.insertBefore(logo, document.body.firstChild);
 
 (function() {var css = [
   	"#btt {",
@@ -24,7 +26,9 @@ $("body").append ( `
   	"    background: #f75239;",
   	"    border-radius: 6px;",
   	"    padding: 1% 2%;",
-	"    float: left;",
+	"    position: absolute;",
+	"    bottom: 10px;"
+	"    margin-left: 10%;"
 	"}",
 	"",
 	".add-content-header span[style] {",
