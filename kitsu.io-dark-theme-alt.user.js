@@ -14,8 +14,10 @@
 // @version       1.0
 // ==/UserScript==
 
-jQuery(document).ready(function() {
-$("<div id='btt'><a href='.ember-application'>Back To Top</a></div>").insertAfter(".feed-container");
+var bbtButton = '<div id="btt"><a href=".ember-application">Back To Top</a></div>';
+
+$('#btt').click(function() {
+    $('.feed-container').insertAfter(bbtButton);
 });
 
 (function() {var css = [
@@ -29,11 +31,11 @@ $("<div id='btt'><a href='.ember-application'>Back To Top</a></div>").insertAfte
 	" */",
 	"",
 	"",
-  "#btt {",
+  	"#btt {",
 	"    color: #f75239;",
-  "    background: #f75239;",
-  "    border-radius: 6px;",
-  "    padding: 1% 2%;",
+  	"    background: #f75239;",
+  	"    border-radius: 6px;",
+  	"    padding: 1% 2%;",
 	"}",
 	"",
 	".add-content-header span[style] {",
