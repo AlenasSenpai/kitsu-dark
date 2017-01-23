@@ -11,13 +11,13 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	  document-body
-// @version       1.7.3
+// @version       1.7.5
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.7.3",
+	" * Version: v1.7.5",
 	" * Latest update: 14/01/2017",
 	" * Changelog: new header changed stuff, so fixed that properly this time, kitsu logo got done right too, some sidebar bits, more tweaks to comments and replies, enjoy",
 	"",
