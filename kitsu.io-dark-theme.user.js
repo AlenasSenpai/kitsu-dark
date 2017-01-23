@@ -11,13 +11,13 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	  document-body
-// @version       1.7.5
+// @version       1.7.7
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.7.5",
+	" * Version: v1.7.7",
 	" * Latest update: 14/01/2017",
 	" * Changelog: new header changed stuff, so fixed that properly this time, kitsu logo got done right too, some sidebar bits, more tweaks to comments and replies, enjoy",
 	"",
@@ -490,15 +490,12 @@
 	"    border-bottom: 1px solid #f75239;",
 	"}",
 	"",
-    	".media-body .sm-comment-count {",
-	"    color: #f75239;",
-	"}",
-	"",
 	".media-body .comment-reply {",
 	"    color: #e5e5e5;",
 	"    font-size: 1.0em;",
 	"    background: #f75239;",
 	"    border-radius: 6px 6px 0px 0px;",
+	"    margin-left: 6px;",
 	"    position: relative;",
 	"    padding: 3px 5px 3px 8px;",
 	"    bottom: -10px;",
@@ -531,7 +528,8 @@
 	"    top: 7px;",
 	"}",
 	"",
-	".sm-comment-count {",
+	".media-body .sm-comment-count {",
+	"    color: #f75239;",
 	"    font-size: 14px;",
 	"    top: 7px;",
 	"}",
@@ -539,6 +537,7 @@
 	".media-body .stream-item-activity .heart-wrapper {",
 	"    height: 13px;",
 	"    width: 13px;",
+	"    margin-top: 10px;"
 	"}",
 	"",
 	".media-body .comment-time {",
