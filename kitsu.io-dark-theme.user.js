@@ -11,13 +11,13 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	  document-body
-// @version       1.7
+// @version       1.7.1
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.7",
+	" * Version: v1.7.1",
 	" * Latest update: 14/01/2017",
 	" * Changelog: new header changed stuff, so fixed that properly this time, kitsu logo got done right too, some sidebar bits, more tweaks to comments and replies, enjoy",
 	"",
@@ -619,7 +619,7 @@
 	".stream-item-comments {",
 	"    border-top: 0px solid #f75239;",
 	"}",
-	",
+	"",
 	".agg-action a {",
 	"    color: #f75239;",
 	"}",
@@ -629,7 +629,6 @@
 	"    width: 100%;",
 	"}",
 	"",
-	
 	".aggregate-date .date-heading:after {",
 	"    border-bottom: 1px solid #ffffff;",
 	"    content: "";",
