@@ -11,7 +11,7 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	  document-body
-// @version       1.7.8
+// @version       1.8.0
 // ==/UserScript==
 (function() {var css = [
 	"/*",
