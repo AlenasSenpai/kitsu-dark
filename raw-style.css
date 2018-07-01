@@ -480,3 +480,145 @@ ul li a:hover {
 .media-body .comment-time {
     color: #e5e5e5;
 }
+
+.reply-list {
+    border-radius: 6px;
+    background: #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.sm-comment-count, .stream-item-activity .like-stream-item {
+    top: 6px;
+    margin-right: 10px;
+}
+
+.media-body .comment-time {
+    position: relative;
+    top: 6px;
+    margin-left: 10px;
+}
+
+/* Jan 10th update */
+
+.agg-avatar img {
+    background: transparent;
+}
+
+.stream-item--media img {
+    background: transparent;
+    border-radius: 6px;
+}
+
+.aggregate-date {
+    background: #f75239;
+    border-radius: 6px;
+    color: #e5e5e5;
+}
+
+.aggregate-wrapper .hr {
+    background: #f75239;
+}
+
+.aggregate-wrapper .button {
+    background: #3d3d3d;
+    border: 1px solid #f75239;
+    color: #e5e5e5;
+}
+.aggregate-wrapper .button:hover {
+    background: #f75239;
+    border: 1px solid #f75239;
+    color: #e5e5e5;
+}
+
+.stream-item--title-block .author-name {
+    color: #f75239;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.agg-action a {
+    color: #f75239;
+}
+
+.aggregate-date .date-heading {
+    font-weight: 300;
+    border-bottom: 1px solid #e5e5e5;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.stream-item {
+    border-bottom: 1px solid #f75239;
+}
+
+.media-body .comment-actions {
+    background: #2d2d2d;
+    border-radius: 6px 6px 0px 0px;
+    border-bottom: 1px solid #f75239;
+}
+
+.reply-list {
+    border-radius: 6px 6px 6px 6px;
+    margin-top: 31px;
+}
+
+.media-body textarea:before {
+    content: "Reply Below:";
+    color: #e5e5e5;
+}
+
+.media-body textarea[style] {
+    margin-top: 30px;
+}
+
+.reply-list {
+    border-bottom: 0px solid #000000;
+}
+
+.reply-list li:last-child {
+    margin-bottom: 0px;
+    float: left;
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+    background: #2d2d2d;
+}
+
+.form-control {
+    border-top: 1px solid #f75239;
+    border-bottom: 1px solid #f75239;
+    border-left: transparent;
+    border-right: transparent;
+    background: #2d2d2d;
+}
+
+.stream-item-comments li {
+    padding-bottom: 10px;
+}
+
+.stream-item-comments .stream-item-activity {
+    margin-bottom: -10px;
+}
+
+.add-comment-wrapper:before {
+    content: "Reply Below:";
+    color: #e5e5e5;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    float: left;
+}
+
+.d-inline-block .more-wrapper {
+    top: 6px;
+} 
+
+.sm-comment-count, .stream-item-activity .like-stream-item, .more-wrapper {
+    top: 0px;
+}
+
+.user-cover .dark-cover-overlay {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.0);
