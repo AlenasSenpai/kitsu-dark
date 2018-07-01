@@ -11,14 +11,14 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	  document-body
-// @version       1.8.0
+// @version       1.8.1
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.8.0",
-	" * Latest update: 14/01/2017",
+	" * Version: v1.8.1",
+	" * Latest update: 01/07/2018",
 	" * Changelog: werejo merge submission and version update",
 	"",
 	" */",
@@ -543,8 +543,7 @@
 ".navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .dropdown button:hover, ",
 ".dropdown.open button, .dropdown.open .dropdown-menu a:hover {",
 "    color:#f75239;",
-"}"
-	
+"}",	
 	"",
 	".stream-item.pinned-post {",
 	"    border: 1px solid #f75239;",
@@ -844,10 +843,6 @@
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
 	GM_addStyle(css);
-} else if (typeof PRO_addStyle != "undefined") {
-	PRO_addStyle(css);
-} else if (typeof addStyle != "undefined") {
-	addStyle(css);
 } else {
 	var node = document.createElement("style");
 	node.type = "text/css";
