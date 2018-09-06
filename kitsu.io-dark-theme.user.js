@@ -11,14 +11,14 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	  document-body
-// @version       1.8.1
+// @version       1.8.2
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.8.1",
-	" * Latest update: 01/07/2018",
+	" * Version: v1.8.2",
+	" * Latest update: 06/09/2018",
 	" * Changelog: werejo merge submission and version update",
 	"",
 	" */",
