@@ -11,13 +11,13 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	  document-body
-// @version       1.8.5
+// @version       1.8.6
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.8.5",
+	" * Version: v1.8.6",
 	" * Latest update: 08/09/2018",
 	" * Changelog: profile page tab fix, tweak and bg change, top nav avatar icon drop down menu tweak and hover tweak, search bar color change and some fixes",
 	"",
@@ -504,6 +504,8 @@
 "    position: relative;",
 "    padding-bottom: 4px;",
 "    padding-top: 3px;",
+"    padding-left: 6px;",
+"    padding-right: 5px;",
 "    top: 6px;",
 "}",
 "",
