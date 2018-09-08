@@ -11,13 +11,13 @@
 // @include       http://*.kitsu.io/*
 // @include       https://*.kitsu.io/*
 // @run-at	  document-body
-// @version       1.8.3
+// @version       1.8.4
 // ==/UserScript==
 (function() {var css = [
 	"/*",
 	" * Name:    Kitsu Dark",
 	" * Author:  AlenasSenpai",
-	" * Version: v1.8.3",
+	" * Version: v1.8.4",
 	" * Latest update: 08/09/2018",
 	" * Changelog: profile page tab fix, tweak and bg change, top nav avatar icon drop down menu tweak and hover tweak, search bar color change",
 	"",
@@ -902,11 +902,15 @@
     "    color: #e5e5e5;",
     "    font-weight: bold;",
     "}",
-	"",
-	".user-menu-drop .dropdown-item {",
+    "",
+    ".user-menu-drop .dropdown-item {",
     "    border-bottom: 1px solid #f75239;",
     "    padding: 10px 20px;",
     "    font-size: 12px;",
+    "    color: #e5e5e5;",
+    "}",
+    "",
+    ".user-menu-drop .dropdown-item a {",
     "    color: #e5e5e5;",
     "}",
     "",
